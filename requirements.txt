@@ -1,0 +1,9 @@
+langchain
+lark
+langchain-chroma
+gpt4all
+chromadb
+langchain-community
+faiss-cpu
+numpy
+transformers
