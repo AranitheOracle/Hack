@@ -39,7 +39,7 @@ This project implements a RAG pipeline that leverages state-of-the-art models an
 
 8. **Flowchart:**
 
-   - Overall flow of the document can be looked up on the flowchar uploaded.
+   - Overall flow of the document can be looked up on the [flowchart](https://github.com/AranitheOracle/SOTA_RAG/blob/main/flow.pdf) uploaded.
 
 ## Other Approaches Explored
 
@@ -63,7 +63,7 @@ This project implements a RAG pipeline that leverages state-of-the-art models an
 ### Setup Instructions
 
 1. **Download the Project:**
-   - Download the `.ipynb` file from the repository.
+   - Download the `.ipynb` [file](https://github.com/AranitheOracle/SOTA_RAG/blob/main/rag_sota.ipynb) from the repository.
 
 2. **Upload to Google Colab:**
    - Go to [Google Colab](https://colab.research.google.com/).
