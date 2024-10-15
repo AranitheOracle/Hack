@@ -1,4 +1,4 @@
-# Project Title
+# Hog RAGger
 
 ## Overview
 This project implements a RAG pipeline that leverages state-of-the-art models and databases for efficient document retrieval and question answering. The pipeline utilizes Hugging Face Transformers, Chroma for vector storage, and FAISS for similarity search.
