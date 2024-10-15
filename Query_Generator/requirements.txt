@@ -1,0 +1,8 @@
+serpapi
+langchain
+langchain_community
+streamlit 
+pandas 
+numpy 
+matplotlib
+spacy
