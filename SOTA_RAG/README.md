@@ -34,7 +34,7 @@ This project implements a RAG pipeline that leverages state-of-the-art models an
    - The refined results are classified again using both **MoritzLaurer/deberta-v3-large-zeroshot-v2.0** and **facebook/bart-large-mnli** to determine the nature of the queries: inference, comparison, or temporal.
 
 7. **Question Answering:**
-   - Based on the classification, the model **meta-llama/Llama-3.2-1B-Instruct** is used to generate answers.
+   - Based on the classification, the model **google/t5-v1-1-base** for inference queries and **facebook/bart-large-mnli** for comparison and temporarl questions
    - If the model outputs insufficient information, the query is classified as `null_query`.
 
 8. **Flowchart:**
