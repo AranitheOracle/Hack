@@ -100,12 +100,12 @@ def search_yahoo(query):
     result = search(query)
     return result.pages[0]
 
-def search_web():
+def search_web(query):
    
 
     params = {
     "engine": "yahoo",
-    "query": "show me a pen of red colour like this car",
+    "p": query,
     "api_key": "625979961b68a67f3d06e40c23682c42c91b80fdf4020c419c5a2224488f146e"
     }
 
@@ -114,6 +114,8 @@ def search_web():
     images_results = results["inline_images"]
     images_results = (images_results['items'])
     return images_results
+
+
 
 # Main function for Streamlit UI
 def main():
